@@ -18,6 +18,7 @@ on:
         options:
           - unifreq/linux-5.10.y-rk35xx
           - codesnas/linux-5.10.y-rk35xx
+          - stevenliuit/linux-6.1.y
           - armbian/linux-rockchip@rk-6.1-rkr5
       kernel_version:
         description: "Select kernel version"
