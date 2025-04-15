@@ -13,11 +13,12 @@ on:
       kernel_source:
         description: "Select the kernel source"
         required: false
-        default: "unifreq"
+        default: "stevenliuit"
         type: choice
         options:
           - unifreq
           - codesnas
+          - stevenliuit
       kernel_version:
         description: "Select kernel version"
         required: false
